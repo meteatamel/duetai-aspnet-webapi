@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Models;
@@ -18,6 +13,19 @@ namespace TodoApi.Controllers
         public TodoItemsController(TodoContext context)
         {
             _context = context;
+        }
+
+        // HEAD: api/TodoItems/5
+        [HttpHead("{id}")]
+        public async Task<IActionResult> HeadTodoItem(long id)
+        {
+            var todoItem = await _context.TodoItems.FindAsync(id);
+            if (todoItem == null)
+            {
+                return NotFound();
+            }
+
+            return NoContent();
         }
 
         // GET: api/TodoItems
