@@ -65,12 +65,12 @@ public class TodoItemsControllerTests
 
 This answer is pretty good! You can generate a new test project however, there are some issues.
 
-DuetAI is telling us to add code to the project file, `UnitTest1.csproj` instead
+Duet AI is telling us to add code to the project file, `UnitTest1.csproj` instead
 of `UnitTest1.cs`. You an go ahead and rename `UnitTest1.cs` to `ToDoItemsControllerTests.cs` and added the suggested code.
 
 Secondly, `ToDoItemsController` is another project, so we need to refer to the other project from the test project.
 
-Here comes another question to DuetAI:
+Here comes another question to Duet AI:
 
 **Prompt**
 > How can I change the project file `ToDoApiTest.csproj` to refer to the `TodoItemsController` class in the other project `ToDoApi.csproj`?
@@ -173,4 +173,4 @@ and change it to have the basic unit test:
 **Lessons learned**:
 
 * The  more specific you get, the better will be the answers (eg. Don’t say ‘How can I test?’ but rather say ‘How can I create a xUnit project to unit test TodoItemsController.cs class from command line”
-* DuetAI will tell you to generate code in wrong places sometimes. You need to know your way around in code to know where the code should go.
+* Duet AI will tell you to generate code in wrong places sometimes. You need to know your way around in code to know where the code should go.

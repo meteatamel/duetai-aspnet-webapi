@@ -3,7 +3,7 @@
 First, let's see if Duet AI can help us to understand the code.
 
 Open [TodoItemsController.cs](../before/TodoApi/Controllers/TodoItemsController.cs)
-in your IDE and ask the following to DuetAI using the Duet AI chat functionality:
+in your IDE and ask the following to Duet AI using the Duet AI chat functionality:
 
 **Prompt**
 > Can you explain what this class does?

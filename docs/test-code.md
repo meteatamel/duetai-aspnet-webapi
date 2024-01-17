@@ -36,7 +36,9 @@ curl http://localhost:5112/api/TodoItems/1
 
 > This command will send a GET request to the api/TodoItems/1 endpoint on the server, and the server will return a response with the status code 200 OK and the body of the response containing the JSON representation of the newly created TodoItem.
 
-As you can see, the command works but it isn’t correct. `ToDoItem.cs` contains `id`, `name`, and `isComplete` fields. DuetAI got the name correctly but the rest was not correct.
+As you can see, the command works but it isn’t correct. `ToDoItem.cs` contains
+`id`, `name`, and `isComplete` fields. Duet AI got the name correctly but the
+rest was not correct.
 
 WE need a more specific prompt.
 

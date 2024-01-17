@@ -1,4 +1,4 @@
-# DuetAI: Test and change an existing ASP.NET web app
+# Duet AI: Test and change an existing ASP.NET web app
 
 This is a walkthrough to take an existing ASP.NET web app (a todo list app),
 explore it, test it, add a unit test, add new functionality, and add more unit
@@ -23,3 +23,4 @@ Follow the following steps:
 * [Test code with Duet AI](./docs/test-code.md)
 * [Add unit tests with Duet AI](./docs/add-unit-tests.md)
 * [Add new functionality with Duet AI](./docs/add-new-functionality.md)
+* [Add more unit tests to test new functionality with Duet AI](./docs/add-more-unit-tests.md)
