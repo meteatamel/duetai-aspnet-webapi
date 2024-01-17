@@ -22,3 +22,4 @@ Follow the following steps:
 * [Explain code with Duet AI](./docs/explain-code.md)
 * [Test code with Duet AI](./docs/test-code.md)
 * [Add unit tests with Duet AI](./docs/add-unit-tests.md)
+* [Add new functionality with Duet AI](./docs/add-new-functionality.md)
