@@ -4,7 +4,7 @@ For the application, you can go through the [Tutorial: Create a web API with ASP
 Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-8.0&WT.mc_id=dotnet-35129-website&tabs=visual-studio-code)
 to create a Todo list app with MVC architecture and a web API.
 
-![Todo list app](../images/todolistapp.png)
+![Todo list app](./images/todolistapp.png)
 
 Or, you can start with the finished tutorial app in [before](./before/) folder.
 
@@ -28,4 +28,4 @@ info: Microsoft.Hosting.Lifetime[0]
 You can also interact with the app with Swagger/OpenAPI endpoint at
 `http://localhost:5112/swagger/`:
 
-![Swagger](../images/swagger.png)
+![Swagger](./images/swagger.png)

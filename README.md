@@ -20,4 +20,4 @@ Follow the following steps:
 
 * [Todo list app](./docs/todo-list-app.md)
 * [Explain code with Duet AI](./docs/explain-code.md)
-
+* [Test code with Duet AI](./docs/test-code.md)
